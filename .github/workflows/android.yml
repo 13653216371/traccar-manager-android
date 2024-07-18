@@ -11,7 +11,7 @@ jobs:
       - name: 设置 JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 17
       - name: 构建 APK
         run: |
          git clone https://github.com/traccar/traccar-manager-android /opt/vnt-android
